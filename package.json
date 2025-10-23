@@ -1,0 +1,41 @@
+{
+  "name": "nextjs-f1gpt",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "seed": "ts-node ./scripts/loadDb.ts",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@ai-sdk/react": "^2.0.77",
+    "@datastax/astra-db-ts": "^1.1.0",
+    "@langchain/community": "^1.0.0",
+    "@langchain/core": "^1.0.1",
+    "@langchain/google-genai": "^1.0.0",
+    "@langchain/textsplitters": "^1.0.0",
+    "ai": "^5.0.77",
+    "cross-fetch": "^4.1.0",
+    "dotenv": "^16.4.5",
+    "langchain": "^1.0.1",
+    "next": "14.2.3",
+    "node-fetch": "^2.7.0",
+    "openai": "^4.41.0",
+    "pupeteer": "^0.0.1",
+    "puppeteer": "^24.26.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "ts-node": "^10.9.2",
+    "web-streams-polyfill": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.0",
+    "typescript": "^5"
+  }
+}
